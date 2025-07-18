@@ -2,4 +2,4 @@ telethon
 apscheduler
 pillow
 pytz
-openai
+openai==0.28
