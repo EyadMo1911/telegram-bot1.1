@@ -8,9 +8,7 @@ from datetime import datetime
 from pytz import timezone
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 import os
-openai.api_key = os.getenv("OPENAI_API_KEY")
-
-
+openai.api_key = os.getenv("OPENAI_API_KEY").strip()
 #openai.api_key = "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"
 
 api_id = 21980902
